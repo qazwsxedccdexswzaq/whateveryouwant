@@ -75,24 +75,46 @@ h2 {
 
     }
     .menu{
-        position: absolute;
-        top: 10px;
+        position: fixed;
+        background-color: white;
+        top: 0px;
+        width: 100%;
         z-index: 10;
-        right: 30px;
-        cursor: pointer;
+       margin-top:0px ;
     }
     .links{
-        float: left;
+
         list-style: none;
-        padding-top: 5px;
-        padding-left: 9px;
-        padding-right: 9px;
-        padding-bottom: 5;
-        color: white;
+       display: inline;
+        padding-left: 33px;
+        padding-right: 25px;
         font-size: 25px;
         font-family: 'Inspiration', cursive;
     }
     .links:hover{
-    color: dodgerblue;
     font-size: 30px;
+    text-decoration: underline;
     }
+    html{
+        scroll-behavior: smooth;
+    }
+    #writings a{
+        text-shadow: none!important;
+        text-decoration: none!important;
+        color: blue!important;
+    }
+    #contact{
+        background-color: firebrick;
+
+    }
+    #contact iframe{
+        width: 100%;
+    }
+    .contact_1 h3{
+        display: inline;
+    }
+    .contact_1 a{
+     color: white;
+        text-shadow: none;
+    }
+
